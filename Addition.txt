@@ -2,10 +2,12 @@ class Addition
  {
   public static void main(String args[])
   {
-   int a=20,b=5,c,d;
+   int a=20,b=5,c,d,p;
    c=a+b;
    d=a-b;
+   p=a*b;
    System.out.println("SUM="+C);
    System.out.println("Difference="+d);
+   System.out.println("Product="+p);
   }
  }
